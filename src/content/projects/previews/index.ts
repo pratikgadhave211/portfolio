@@ -1,4 +1,4 @@
 export const previews = {
-  de: () => import("./de"),
+  de: () => import("./en"),
   en: () => import("./en"),
 };

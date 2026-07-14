@@ -1,73 +1,32 @@
-import videoSharkie from "../../../assets/videos/sharkie.mp4";
-
-import sharkie0 from "../../../assets/images/projects/sharkie/sharkie-0.webp";
-import sharkie1 from "../../../assets/images/projects/sharkie/sharkie-1.webp";
-import sharkie2 from "../../../assets/images/projects/sharkie/sharkie-2.webp";
-import sharkie3 from "../../../assets/images/projects/sharkie/sharkie-3.webp";
-import sharkie4 from "../../../assets/images/projects/sharkie/sharkie-4.webp";
+import demoVideo from "../../../assets/videos/documind.mp4";
+import documind0 from "../../../assets/images/projects/sharkie/architecture.png";
 
 import type { ProjectContent } from "../../types";
 
 export default {
-  title: "Sharkie",
+  title: "DocuMind",
   theme: "light",
-  tags: ["javascript", "html", "css"],
-  live: "https://sharkie.david-hckh.com/",
-  source: "https://github.com/davidhckh/sharkie-game",
+  tags: ["rag", "llm", "langchain", "python"],
+  live: "https://github.com/pratikgadhave211/DocuMind-A-self-healing-rag-engine-",
+  source: "https://github.com/pratikgadhave211/DocuMind-A-self-healing-rag-engine-",
   description:
-    "Sharkie is a 2D underwater adventure game built with vanilla JavaScript and HTML5 Canvas.<br/><br/>The project is structured around object-oriented programming principles, featuring custom classes for entities, enemies, and game systems, alongside smooth animations, combat mechanics, and layered parallax backgrounds.",
+    "A self-healing Retrieval-Augmented Generation (RAG) system built with FastAPI, LangChain, and FAISS.<br/><br/>It delivers precise answers from local documents through a multi-stage validation process involving Query Enhancement, CRAG (Corrective RAG) grading, and Cross-Encoder Reranking.",
   components: [
     {
       type: "media",
       props: {
         type: "video",
-        src: videoSharkie,
-        caption: "Gameplay",
+        src: demoVideo,
+        caption: "Project Demo",
       },
     },
     {
       type: "media",
       props: {
         type: "image",
-        src: sharkie0,
-        alt: "Entities And Map Design",
-        caption: "Entities And Map Design",
-      },
-    },
-    {
-      type: "media",
-      props: {
-        type: "image",
-        src: sharkie1,
-        alt: "Boss Fight",
-        caption: "Boss Fight",
-      },
-    },
-    {
-      type: "media",
-      props: {
-        type: "image",
-        src: sharkie2,
-        alt: "Mission",
-        caption: "Mission",
-      },
-    },
-    {
-      type: "media",
-      props: {
-        type: "image",
-        src: sharkie3,
-        alt: "Victory Screen",
-        caption: "Victory Screen",
-      },
-    },
-    {
-      type: "media",
-      props: {
-        type: "image",
-        src: sharkie4,
-        alt: "Death Screen",
-        caption: "Death Screen",
+        src: documind0,
+        alt: "DocuMind Visualization",
+        caption: "Architecture Overview",
       },
     },
   ],
